@@ -1,4 +1,4 @@
-package lesson1;
+package lesson1_GitConflict;
 
 public class MainNewBranch {
 
