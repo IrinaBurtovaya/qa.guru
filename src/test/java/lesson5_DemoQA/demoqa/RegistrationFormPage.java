@@ -1,4 +1,4 @@
-package demoqa;
+package lesson5_DemoQA.demoqa;
 
 import com.github.javafaker.Faker;
 import org.junit.jupiter.api.Assertions;
