@@ -1,3 +1,5 @@
+package lesson1;
+
 public class MainNewBranch {
 
         public static void main(String[] args) {
