@@ -13,7 +13,6 @@ import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 
 public class LambdaStepTest {
-
     private static final String REPOSITORY = "IrinaBurtovaya/qa.guru_12";
 
     @BeforeAll
