@@ -13,6 +13,7 @@ public class SelenideTest {
 
     @BeforeAll
     public static void openPage() {
+
         Configuration.holdBrowserOpen = true;
         String baseUrl = "https://github.com/";
         Configuration.browserSize = "1920x1080";

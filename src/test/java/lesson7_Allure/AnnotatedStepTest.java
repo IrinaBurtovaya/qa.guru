@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Test;
 
 public class AnnotatedStepTest {
 
+
     private static final String REPOSITORY = "IrinaBurtovaya/qa.guru_12";
 
     @BeforeAll

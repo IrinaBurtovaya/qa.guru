@@ -9,6 +9,7 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class WebSteps {
 
+
     @Step("Открываем главную страницу")
     public void openMainPage() {
         open("https://github.com/");
