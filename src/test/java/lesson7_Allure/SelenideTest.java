@@ -11,7 +11,6 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class SelenideTest {
 
-
     @BeforeAll
     public static void openPage() {
 

@@ -21,7 +21,6 @@ public class LambdaStepTest {
         Configuration.holdBrowserOpen = true;
         Configuration.browserSize = "1920x1080";
     }
-
     @Test
     public void testGithubIssue() {
 
