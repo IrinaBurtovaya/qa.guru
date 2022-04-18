@@ -24,6 +24,7 @@ public class LambdaStepTest {
 
     @Test
     public void testGithubIssue() {
+
         SelenideLogger.addListener("allure", new AllureSelenide());
         step("Открываем главную страницу", () -> {
             open("https://github.com/");

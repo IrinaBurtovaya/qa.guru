@@ -6,14 +6,8 @@ import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-public class AnnotatedStepTest {
-    import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.logevents.SelenideLogger;
-import io.qameta.allure.selenide.AllureSelenide;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
-
     public class AnnotatedStepTest {
+
 
         private static final String REPOSITORY = "IrinaBurtovaya/qa.guru_12";
 
@@ -36,4 +30,4 @@ import org.junit.jupiter.api.Test;
         }
     }
 
-}
+
