@@ -35,6 +35,8 @@ $("h1").$("div") - ищет все элементы h1, а затем берет
         $("[type=text]").setValue("Selenide").pressEnter();
         $x("(//a[@href=\"/search?q=Selenide&type=wikis\"])[1]").click();
         $x("//a[@title=\"SoftAssertions\"]").shouldBe(Condition.visible).click();
-        $x("//div[@class=\"markdown-body\"]/*[4]/*[last()]").shouldHave(Condition.text("JUnit5"));
+        //$x("//div[@class=\"markdown-body\"]/*[4]/*[last()]").shouldHave(Condition.text("JUnit5"));
+        $x("//*[contains(text(), 'JUnit5 extend')]").shouldHave(Condition.text("JUnit5"));
+
     }
 }
