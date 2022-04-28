@@ -1,13 +1,13 @@
-package lesson5_DemoQA.demoqa;
+package lesson10_jenkins;
 
 import com.codeborne.selenide.Configuration;
+import lesson5_DemoQA.demoqa.RegistrationFormPage;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selenide.open;
 
-public class DemoQATests {
-
+public class DemoQaTestsDuplicatedForL10 {
     @BeforeAll
     public static void openPage() {
         Configuration.holdBrowserOpen = true;
