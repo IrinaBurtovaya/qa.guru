@@ -49,8 +49,3 @@ test {
     }
 }
 
-task demoqa_tests(type: Test) {
-    useJUnitPlatform {
-        includeTags "demoqa"
-    }
-}
